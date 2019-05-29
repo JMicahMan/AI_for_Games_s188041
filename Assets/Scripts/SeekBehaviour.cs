@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class SeekBehaviour : MonoBehaviour {
 
@@ -9,12 +7,6 @@ public class SeekBehaviour : MonoBehaviour {
 
     public float Speed;
 
-
-
-	void Start () {
-		
-	}
-	
 	void Update ()
     {
         Vector3 Direction = Goal.transform.position - transform.position;
