@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class EvadeBehaviour : MonoBehaviour
 
@@ -9,16 +7,6 @@ public class EvadeBehaviour : MonoBehaviour
     public GameObject Goal;
     public float Speed;
 
-
-
-
-    // Use this for initialization
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
     void Update()
 
     {

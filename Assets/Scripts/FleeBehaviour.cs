@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class FleeBehaviour : MonoBehaviour {
 
@@ -9,12 +7,6 @@ public class FleeBehaviour : MonoBehaviour {
 
     public float Speed;
 
-
-
-    void Start()
-    {
-
-    }
 
     void Update()
     {

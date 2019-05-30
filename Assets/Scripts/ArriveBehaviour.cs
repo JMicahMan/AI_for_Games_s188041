@@ -1,20 +1,10 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class ArriveBehaviour : MonoBehaviour {
 
     public GameObject Goal;
 
     public float Speed;
-
-    public float Target;
-
-
-    void Start()
-    {
-
-    }
 
     void Update()
     {

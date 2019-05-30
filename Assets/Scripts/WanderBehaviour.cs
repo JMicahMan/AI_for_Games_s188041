@@ -3,7 +3,6 @@
 public class WanderBehaviour : MonoBehaviour {
     public float focusTime = 2.0f;
     public float Speed;
-    public Vector3 refDir;
 	void Update ()
     {
         var point = Random.insideUnitSphere;
@@ -11,7 +10,6 @@ public class WanderBehaviour : MonoBehaviour {
 
         focusTime -= Time.deltaTime;
         Vector3 dir = point - transform.position;
-        refDir = dir;
 
         if (focusTime < 0)
         {
